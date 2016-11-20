@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+  padding: 15px;
+  font-family: "Arial", sans-serif;
+  background-color: azure;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 90px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  width: 20%;
+  height: 80px;
+  padding-top: 27px;
+  padding-bottom: 10px;
+  border: 2px solid blue;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+.link:hover {
+  background-color: blue;
+  color: #fff;
+}
